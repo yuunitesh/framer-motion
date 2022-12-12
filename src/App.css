@@ -1,0 +1,27 @@
+* {
+  cursor: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: yellow;
+}
+
+.title {
+  font-size: 10rem;
+}
+
+.cursor {
+  background-color: #111;
+  aspect-ratio: 1;
+  height: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
